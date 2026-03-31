@@ -10,7 +10,7 @@ const rooms = [
     reviews: 12,
     amenities: ["CCTV", "RO Water", "Parking", "Housekeeping", "Furnished", "Wi-Fi"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 18.00.30 (1).jpeg",
     description: "A comfortable single-occupancy room with all modern amenities. Perfect for working professionals and students who value privacy and comfort. The room is fully furnished with a bed, wardrobe, study table, and chair."
   },
   {
@@ -24,7 +24,7 @@ const rooms = [
     reviews: 9,
     amenities: ["CCTV", "RO Water", "Housekeeping", "Furnished", "Wi-Fi"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 17.58.43.jpeg",
     description: "Spacious double-occupancy room ideal for two residents. Each resident gets their own bed and storage space. The room is well-ventilated with natural light and equipped with all essential furnishings."
   },
   {
@@ -38,7 +38,7 @@ const rooms = [
     reviews: 15,
     amenities: ["CCTV", "RO Water", "Parking", "Housekeeping", "Furnished"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 18.00.32.jpeg",
     description: "A well-organized triple-sharing room with ample space for three residents. Each person has a dedicated bed, storage, and study area. Great value for budget-conscious residents."
   },
   {
@@ -52,7 +52,7 @@ const rooms = [
     reviews: 20,
     amenities: ["CCTV", "RO Water", "Housekeeping", "Furnished"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 17.58.41.jpeg",
     description: "Our most affordable option without compromising on safety and cleanliness. A budget triple room perfect for students and those looking to save on accommodation costs in Indore."
   },
   {
@@ -66,7 +66,7 @@ const rooms = [
     reviews: 8,
     amenities: ["CCTV", "RO Water", "Parking", "Housekeeping", "Furnished", "Wi-Fi"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 18.00.30 (1).jpeg",
     description: "A premium single-occupancy room located near Aurobindo Hospital. Ideal for medical professionals, nurses, and hospital staff. The room offers complete privacy and is equipped with top-quality furnishings."
   },
   {
@@ -80,7 +80,7 @@ const rooms = [
     reviews: 11,
     amenities: ["CCTV", "RO Water", "Parking", "Housekeeping", "Furnished", "Wi-Fi"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 17.58.42.jpeg",
     description: "A deluxe double-sharing room near Aurobindo Hospital. Features premium furnishings, excellent ventilation, and 24/7 security. Great choice for two people looking for a comfortable stay in a prime location."
   },
   {
@@ -94,7 +94,7 @@ const rooms = [
     reviews: 17,
     amenities: ["CCTV", "RO Water", "Parking", "Housekeeping"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 18.00.24.jpeg",
     description: "A standard triple-sharing room in the heart of Pardesipura. Close to major IT companies and colleges. The room has good ventilation, CCTV security, and daily housekeeping service."
   },
   {
@@ -108,7 +108,7 @@ const rooms = [
     reviews: 14,
     amenities: ["CCTV", "RO Water", "Housekeeping", "Furnished"],
     available: true,
-    image: "images/placeholder.svg",
+    image: "images/WhatsApp Image 2026-03-20 at 18.00.30.jpeg",
     description: "An economical budget room near Aurobindo Hospital. Perfect for students and interns looking for affordable, safe, and clean accommodation. All basic amenities are included in the price."
   }
 ];
