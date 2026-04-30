@@ -2,11 +2,8 @@
    BASE.CSS — Reset, Variables, Typography, Utilities
    Raj PG Services
    ============================================ */
-
-/* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Lato:wght@300;400;500;700;900&display=swap');
 
-/* ─── CSS Variables ─────────────────────────── */
 :root {
   --bg: #F4F7FB;
   --accent: #1B3A6B;
@@ -29,7 +26,6 @@
   --nav-h: 70px;
 }
 
-/* ─── Reset ─────────────────────────────────── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -84,7 +80,6 @@ input, select, textarea {
   font-size: 0.95rem;
 }
 
-/* ─── Typography ─────────────────────────────── */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   color: var(--text);
