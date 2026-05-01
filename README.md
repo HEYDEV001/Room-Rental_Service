@@ -2,7 +2,7 @@
 
 > **Raj PG Services** — A fully responsive, static-frontend web application for showcasing and browsing premium Paying Guest (PG) accommodation in Indore, Madhya Pradesh.
 
-🌐 **Live Demo:** [room-rental-service-sooty.vercel.app](https://room-rental-service-sooty.vercel.app)
+🌐 **Live Demo:** [room-rental-service-sooty.vercel.app](https://raj-pg-service.vercel.app/)
 &nbsp;&nbsp;|&nbsp;&nbsp;
 📦 **Repository:** [github.com/HEYDEV001/Room-Rental_Service](https://github.com/HEYDEV001/Room-Rental_Service)
 
