@@ -200,10 +200,3 @@ Then visit `http://localhost:8080` (or `http://localhost:3000` with `serve`).
 
 ---
 
-## 📄 License
-
-This project is built for **Raj PG Services**, Indore. All rights reserved © 2025.
-
----
-
-*Made with ❤️ in Indore, M.P.*
