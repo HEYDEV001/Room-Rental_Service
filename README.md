@@ -136,14 +136,7 @@ Room-Rental_Service/
 
 ---
 
-### 5. Image Reliability with Real-World Photos
-**Challenge:** The project uses actual WhatsApp-exported property photos with long, space-containing filenames. Broken images would significantly hurt perceived quality.
-
-**Optimisation:** All `<img>` tags include a native `onerror` handler that swaps to a local `placeholder.svg` if any image fails to load. Images also carry `loading="lazy"` attributes to prevent them from blocking the initial render.
-
----
-
-### 6. Form Validation UX
+### 5. Form Validation UX
 **Challenge:** A simple "submit and show all errors at once" pattern creates a frustrating experience for users filling out a multi-field enquiry form.
 
 **Optimisation:** `contact.js` implements a two-stage validation strategy — fields show errors on `blur` (when the user leaves the field), and errors are cleared immediately on `input` once the user starts correcting them. This means the form provides feedback at exactly the right moment: not prematurely while typing, and not only after a failed submit.
