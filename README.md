@@ -2,13 +2,13 @@
 
 > **Raj PG Services** — A fully responsive, static-frontend web application for showcasing and browsing premium Paying Guest (PG) accommodation in Indore, Madhya Pradesh.
 
-🌐 **Live Demo:** [room-rental-service-sooty.vercel.app](https://raj-pg-service.vercel.app/)
+ **Live Demo:** [room-rental-service-sooty.vercel.app](https://raj-pg-service.vercel.app/)
 &nbsp;&nbsp;|&nbsp;&nbsp;
-📦 **Repository:** [github.com/HEYDEV001/Room-Rental_Service](https://github.com/HEYDEV001/Room-Rental_Service)
+ **Repository:** [github.com/HEYDEV001/Room-Rental_Service](https://github.com/HEYDEV001/Room-Rental_Service)
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 The goal of this project is to build a professional, conversion-focused website for **Raj PG Services** — a real-world paying guest accommodation business operating across three locations in Indore. The platform bridges the gap between prospective tenants and the PG owner by:
 
@@ -21,7 +21,7 @@ The project is intentionally built as a **zero-backend, zero-dependency static s
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Room-Rental_Service/
@@ -55,9 +55,9 @@ Room-Rental_Service/
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🏠 Home Page (index.html)
+###  Home Page (index.html)
 - **Hero section** with a contextual search widget — filter by location, stay duration, and room type before navigating to listings
 - **Live stats strip** — 32+ rooms, 3 locations, 200+ residents, 4.8★ average rating
 - **Trust strip** — scrollable icons highlighting CCTV, RO Water, Parking, Housekeeping, and Electricity inclusion
@@ -66,7 +66,7 @@ Room-Rental_Service/
 - **Testimonials** — 3 resident testimonials with avatar, name, and designation
 - **CTA banner** — dual call-to-action guiding users to listings or the contact form
 
-### 🔍 Listings Page (listings.html)
+###  Listings Page (listings.html)
 - **Real-time text search** — filters rooms by name, location, type, or amenities as the user types, with a one-click clear button
 - **Multi-dimensional sidebar filters:**
   - Location (Pardesipura / Near Aurobindo)
@@ -80,12 +80,12 @@ Room-Rental_Service/
 - **Animated "No Results" state** with reset and contact shortcuts
 - **Mobile filter drawer** — sidebar filters are cloned into a slide-up bottom drawer on small screens, with Apply and Reset actions, keeping the mobile experience clean
 
-### 📋 Room Detail Page (detail.html)
+###  Room Detail Page (detail.html)
 - Displays full details for a room selected from the grid (room ID passed via URL query parameter)
 - Shows the room gallery, amenity list, description, price, rating, and availability badge
 - Direct call-to-action linking to the contact page
 
-### 📩 Contact Page (contact.html)
+###  Contact Page (contact.html)
 - Enquiry form with fields: Name, Email, Phone, Preferred Location, Room Type, Move-In Date, and Message
 - **Real-time field validation** on blur and on subsequent input:
   - Name: minimum 2 characters
@@ -95,7 +95,7 @@ Room-Rental_Service/
 - Inline error messages that appear and disappear dynamically
 - **Success state** — form hides and a confirmation panel slides in on valid submission, with a "Send Another Enquiry" button to reset
 
-### 🎨 Design & UX
+###  Design & UX
 - Custom CSS design system with CSS variables for consistent theming (navy accent `#1B3A6B`, warm backgrounds, smooth shadows)
 - **Playfair Display** for headings, **Lato** for body — imported via Google Fonts
 - Smooth scroll behaviour, cubic-bezier transitions throughout
@@ -106,7 +106,7 @@ Room-Rental_Service/
 
 ---
 
-## ⚠️ Challenges Faced & Optimisations Made
+##  Challenges Faced & Optimisations Made
 
 ### 1. No Backend — Dynamic UI with Pure Vanilla JS
 **Challenge:** The project needed dynamic room listing, filtering, and sorting without any server, database, or framework.
@@ -150,7 +150,7 @@ Room-Rental_Service/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -163,7 +163,7 @@ Room-Rental_Service/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 No build tools or package managers required.
 
@@ -186,7 +186,7 @@ Then visit `http://localhost:8080` (or `http://localhost:3000` with `serve`).
 
 ---
 
-## 📍 Business Details
+##  Business Details
 
 | Detail | Info |
 |---|---|
