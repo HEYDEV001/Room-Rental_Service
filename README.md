@@ -177,9 +177,6 @@ cd Room-Rental_Service/raj-pg-improved
 # 3. Open in your browser
 #    Option A — open index.html directly in a browser
 #    Option B — use a local dev server (recommended to avoid CORS on images)
-npx serve .
-# or
-python -m http.server 8080
 ```
 
 Then visit `http://localhost:8080` (or `http://localhost:3000` with `serve`).
