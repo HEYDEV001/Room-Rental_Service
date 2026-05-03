@@ -57,7 +57,7 @@ Room-Rental_Service/
 
 ##  Key Features
 
-###  Home Page (index.html)
+###  Home Page 
 - **Hero section** with a contextual search widget — filter by location, stay duration, and room type before navigating to listings
 - **Live stats strip** — 32+ rooms, 3 locations, 200+ residents, 4.8★ average rating
 - **Trust strip** — scrollable icons highlighting CCTV, RO Water, Parking, Housekeeping, and Electricity inclusion
@@ -66,7 +66,7 @@ Room-Rental_Service/
 - **Testimonials** — 3 resident testimonials with avatar, name, and designation
 - **CTA banner** — dual call-to-action guiding users to listings or the contact form
 
-###  Listings Page (listings.html)
+###  Listings Page 
 - **Real-time text search** — filters rooms by name, location, type, or amenities as the user types, with a one-click clear button
 - **Multi-dimensional sidebar filters:**
   - Location (Pardesipura / Near Aurobindo)
@@ -80,12 +80,12 @@ Room-Rental_Service/
 - **Animated "No Results" state** with reset and contact shortcuts
 - **Mobile filter drawer** — sidebar filters are cloned into a slide-up bottom drawer on small screens, with Apply and Reset actions, keeping the mobile experience clean
 
-###  Room Detail Page (detail.html)
+###  Room Detail Page 
 - Displays full details for a room selected from the grid (room ID passed via URL query parameter)
 - Shows the room gallery, amenity list, description, price, rating, and availability badge
 - Direct call-to-action linking to the contact page
 
-###  Contact Page (contact.html)
+###  Contact Page 
 - Enquiry form with fields: Name, Email, Phone, Preferred Location, Room Type, Move-In Date, and Message
 - **Real-time field validation** on blur and on subsequent input:
   - Name: minimum 2 characters
