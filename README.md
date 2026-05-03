@@ -173,18 +173,3 @@ cd Room-Rental_Service/raj-pg-improved
 Then visit `http://localhost:8080` (or `http://localhost:3000` with `serve`).
 
 ---
-
-##  Business Details
-
-| Detail | Info |
-|---|---|
-| Business Name | Raj PG Services |
-| City | Indore, Madhya Pradesh |
-| Locations | Pardesipura (2 properties) · Near Aurobindo Hospital (1 property) |
-| Price Range | ₹2,500 – ₹3,500 / month (utilities included) |
-| Total Rooms | 32+ |
-| Contact | +91 9826705696 |
-| Instagram | [@ydv_raj_0143](https://www.instagram.com/ydv_raj_0143) |
-
----
-
