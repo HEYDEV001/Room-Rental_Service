@@ -97,12 +97,10 @@ Room-Rental_Service/
 
 ###  Design & UX
 - Custom CSS design system with CSS variables for consistent theming (navy accent `#1B3A6B`, warm backgrounds, smooth shadows)
-- **Playfair Display** for headings, **Lato** for body — imported via Google Fonts
 - Smooth scroll behaviour, cubic-bezier transitions throughout
 - Sticky navbar with a scroll-triggered shadow effect
 - Hamburger menu for mobile with an animated slide-down overlay
 - Lazy-loaded images with an SVG placeholder fallback on error
-- Scroll-to-top button that appears after 400px of scroll
 
 ---
 
