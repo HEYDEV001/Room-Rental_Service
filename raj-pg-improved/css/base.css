@@ -103,7 +103,6 @@ p:last-child {
   margin-bottom: 0;
 }
 
-/* ─── Utility Classes ────────────────────────── */
 .text-center { text-align: center; }
 .text-accent { color: var(--accent); }
 .text-white { color: var(--white); }
@@ -142,14 +141,12 @@ p:last-child {
   border: 0;
 }
 
-/* Star Rating */
 .stars {
   color: #F4C542;
   font-size: 0.95rem;
   letter-spacing: 1px;
 }
 
-/* Price tag */
 .price-tag {
   font-family: var(--font-body);
   font-weight: 700;
@@ -157,7 +154,6 @@ p:last-child {
   color: var(--accent);
 }
 
-/* Section label / eyebrow text */
 .eyebrow {
   font-family: var(--font-body);
   font-size: 0.78rem;
@@ -169,7 +165,6 @@ p:last-child {
   margin-bottom: 0.6rem;
 }
 
-/* Divider line */
 .divider {
   width: 56px;
   height: 3px;
@@ -181,7 +176,6 @@ p:last-child {
   margin: 1rem auto 1.5rem;
 }
 
-/* Badge */
 .badge {
   display: inline-block;
   padding: 0.25rem 0.75rem;
@@ -196,7 +190,6 @@ p:last-child {
 .badge-triple  { background: #E4EBF5; color: #122952; border: 1px solid #C8D6EC; }
 .badge-budget  { background: #F0F4FB; color: #4A6080; border: 1px solid #C8D6EC; }
 
-/* Available indicator */
 .available-dot {
   display: inline-flex;
   align-items: center;
@@ -220,7 +213,6 @@ p:last-child {
   50% { opacity: 0.6; transform: scale(1.3); }
 }
 
-/* Scroll-to-top button */
 #scrollTopBtn {
   position: fixed;
   bottom: 2rem;
