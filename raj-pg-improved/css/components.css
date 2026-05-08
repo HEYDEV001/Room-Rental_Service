@@ -3,7 +3,7 @@
    Raj PG Services
    ============================================ */
 
-/* ─── NAVBAR ─────────────────────────────────── */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -128,7 +128,6 @@
   background: rgba(255,255,255,0.28) !important;
 }
 
-/* Hamburger */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -166,7 +165,7 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* Mobile nav */
+
 .nav-mobile {
   display: none;
   position: fixed;
@@ -210,7 +209,7 @@
   padding-left: 2rem;
 }
 
-/* ─── BUTTONS ────────────────────────────────── */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -296,7 +295,7 @@
   width: 100%;
 }
 
-/* ─── ROOM CARDS ─────────────────────────────── */
+
 .room-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -456,7 +455,7 @@
   color: var(--text-light);
 }
 
-/* ─── FEATURE CARDS ──────────────────────────── */
+
 .feature-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -507,7 +506,6 @@
   margin: 0;
 }
 
-/* ─── TESTIMONIAL CARDS ──────────────────────── */
 .testimonial-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -579,7 +577,6 @@
   color: var(--text-light);
 }
 
-/* ─── FOOTER ─────────────────────────────────── */
 .footer {
   background: var(--accent-dark);
   color: rgba(255,255,255,0.8);
