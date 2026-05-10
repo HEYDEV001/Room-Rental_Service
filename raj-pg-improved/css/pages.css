@@ -3,7 +3,7 @@
    Raj PG Services
    ============================================ */
 
-/* ─── HOME: HERO ──────────────────────────────── */
+
 .hero {
   background: linear-gradient(140deg, var(--accent-dark) 0%, var(--accent) 45%, #2A5298 100%);
   min-height: 600px;
@@ -75,7 +75,6 @@
   margin-bottom: 2.5rem;
 }
 
-/* Hero Search Box */
 .hero-search {
   background: var(--white);
   border-radius: var(--radius);
@@ -175,27 +174,22 @@
   background: rgba(255,255,255,0.2);
 }
 
-/* ─── HOME: FEATURED ROOMS ────────────────────── */
 .featured-rooms-section {
   background: var(--bg);
 }
 
-/* ─── HOME: WHY CHOOSE US ─────────────────────── */
 .why-section {
   background: var(--white);
 }
 
-/* ─── HOME: HOW IT WORKS ──────────────────────── */
 .how-section {
   background: var(--secondary);
 }
 
-/* ─── HOME: TESTIMONIALS ──────────────────────── */
 .testimonials-section {
   background: var(--bg);
 }
 
-/* ─── HOME: CTA BANNER ────────────────────────── */
 .cta-banner {
   background: linear-gradient(135deg, var(--accent-dark) 0%, var(--accent) 100%);
   padding: 4rem 0;
@@ -233,7 +227,6 @@
   flex-wrap: wrap;
 }
 
-/* ─── LISTINGS: SIDEBAR FILTERS ───────────────── */
 .filter-group {
   margin-bottom: 1.25rem;
 }
@@ -290,7 +283,6 @@
   margin-bottom: 0.5rem;
 }
 
-/* No results message */
 .no-results {
   grid-column: 1 / -1;
   text-align: center;
@@ -313,7 +305,6 @@
   font-size: 0.95rem;
 }
 
-/* ─── DETAIL: GALLERY ─────────────────────────── */
 .detail-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -353,7 +344,6 @@
   transform: scale(1.05);
 }
 
-/* ─── DETAIL: BOOKING PANEL ───────────────────── */
 .booking-panel {
   background: var(--white);
   border-radius: var(--radius);
@@ -440,7 +430,6 @@
   gap: 0.75rem;
 }
 
-/* ─── DETAIL: AMENITIES GRID ──────────────────── */
 .amenities-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -466,7 +455,6 @@
   flex-shrink: 0;
 }
 
-/* ─── DETAIL: REVIEWS ─────────────────────────── */
 .review-item {
   border-bottom: 1px solid var(--border);
   padding-bottom: 1.25rem;
@@ -521,7 +509,6 @@
   margin: 0;
 }
 
-/* ─── DETAIL: HOUSE RULES ─────────────────────── */
 .rules-list {
   list-style: none;
   margin: 0;
@@ -547,7 +534,6 @@
   flex-shrink: 0;
 }
 
-/* ─── CONTACT: FORM ───────────────────────────── */
 .contact-form-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -643,7 +629,6 @@ textarea.form-control {
   display: block;
 }
 
-/* Success Message */
 .success-message {
   display: none;
   text-align: center;
@@ -676,7 +661,6 @@ textarea.form-control {
   font-size: 0.92rem;
 }
 
-/* ─── CONTACT: INFO CARD ──────────────────────── */
 .contact-info-card {
   background: var(--white);
   border-radius: var(--radius);
