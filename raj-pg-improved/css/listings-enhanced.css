@@ -3,7 +3,6 @@
    Raj PG Services — Enhanced Filter Experience
    ============================================ */
 
-/* ─── SEARCH BAR STRIP ───────────────────────── */
 .search-bar-strip {
   background: var(--white);
   border-bottom: 1px solid var(--border);
@@ -105,7 +104,6 @@
   line-height: 1;
 }
 
-/* ─── ACTIVE FILTER CHIPS BAR ────────────────── */
 .active-filters-bar {
   background: var(--secondary);
   border-bottom: 1px solid var(--border);
@@ -182,7 +180,6 @@
 }
 .clear-all-btn:hover { color: var(--accent); }
 
-/* ─── ENHANCED SIDEBAR ───────────────────────── */
 .enhanced-sidebar {
   padding: 1.4rem 1.5rem;
 }
@@ -232,7 +229,6 @@
 
 .filter-section-icon { font-size: 0.9rem; }
 
-/* Filter Pills (Location) */
 .filter-pills {
   display: flex;
   flex-direction: column;
@@ -291,7 +287,6 @@
   background-size: 10px;
 }
 
-/* Price Range Slider */
 .price-range-wrap { padding: 0.2rem 0; }
 
 .price-display-row {
@@ -390,7 +385,6 @@
   margin-top: 0.25rem;
 }
 
-/* Room Type Cards */
 .type-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -439,7 +433,6 @@
 .type-card input:checked + .type-card-inner .type-name { color: var(--accent); }
 .type-card input:checked + .type-card-inner .type-price { color: var(--accent-light); }
 
-/* Amenity Toggles */
 .amenity-toggles {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -481,7 +474,6 @@
 
 .amenity-toggle:has(input:checked) .amenity-name { color: var(--accent); }
 
-/* Rating Buttons */
 .rating-buttons {
   display: flex;
   gap: 0.4rem;
@@ -503,7 +495,6 @@
 .rating-btn:hover { border-color: var(--accent-light); color: var(--accent); background: rgba(27,58,107,0.04); }
 .rating-btn.active { border-color: var(--accent); background: var(--accent); color: white; }
 
-/* ─── TOOLBAR ENHANCEMENTS ───────────────────── */
 .enhanced-toolbar {
   background: var(--white);
   border: 1px solid var(--border);
@@ -548,7 +539,6 @@
 .view-btn.active { background: var(--accent); color: white; }
 .view-btn:hover:not(.active) { background: var(--secondary); }
 
-/* ─── ENHANCED GRID & LIST VIEW ──────────────── */
 .enhanced-grid {
   transition: opacity 0.18s;
 }
@@ -558,7 +548,6 @@
   pointer-events: none;
 }
 
-/* List view */
 .enhanced-grid.list-view {
   grid-template-columns: 1fr !important;
 }
@@ -577,7 +566,6 @@
   padding: 1.25rem 1.5rem;
 }
 
-/* Card entrance animation */
 .room-card {
   animation: cardIn 0.3s ease both;
 }
@@ -587,7 +575,6 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ─── NO RESULTS ENHANCED ────────────────────── */
 .no-results {
   grid-column: 1 / -1;
   text-align: center;
@@ -622,7 +609,6 @@
   flex-wrap: wrap;
 }
 
-/* ─── MOBILE FILTER DRAWER ───────────────────── */
 .filter-drawer-overlay {
   position: fixed;
   inset: 0;
@@ -707,7 +693,6 @@
 
 .filter-drawer-footer .btn { flex: 1; text-align: center; }
 
-/* ─── RESPONSIVE ─────────────────────────────── */
 @media (max-width: 900px) {
   .mobile-filter-trigger { display: flex; }
   
@@ -739,5 +724,4 @@
   .amenity-toggles { grid-template-columns: repeat(2, 1fr); }
 }
 
-/* Listings section top padding adjustment when sticky bars present */
 .listings-section { padding-top: 2rem; }
