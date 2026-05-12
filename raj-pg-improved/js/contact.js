@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const successMsg = document.getElementById('success-message');
 
-  // ─── Validators ──────────────────────────────
   function validateName(val) {
     return val.trim().length >= 2;
   }
@@ -27,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return val.trim().length > 0;
   }
 
-  // ─── Show/hide error ─────────────────────────
   function setError(fieldId, show) {
     const field = document.getElementById(fieldId);
     const errorEl = document.getElementById(fieldId + '-error');
@@ -41,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ─── Real-time field validation ──────────────
   function setupRealtime(fieldId, validator) {
     const field = document.getElementById(fieldId);
     if (!field) return;
@@ -61,7 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setupRealtime('location', validateRequired);
   setupRealtime('room-type', validateRequired);
 
-  // ─── Submit handler ───────────────────────────
   form.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -110,20 +106,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!isValid) return;
 
-    // Show success
     form.style.display = 'none';
     if (successMsg) {
       successMsg.classList.add('visible');
       successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
-    // Reset form (in background)
     setTimeout(() => {
       form.reset();
     }, 300);
   });
 
-  // ─── Send Another button ──────────────────────
   const sendAnotherBtn = document.getElementById('send-another');
   if (sendAnotherBtn) {
     sendAnotherBtn.addEventListener('click', () => {
