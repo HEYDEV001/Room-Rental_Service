@@ -6,10 +6,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   if (!document.getElementById('listings-grid')) return;
 
-  // ─── State ──────────────────────────────────
   let filteredRooms = [...rooms];
 
-  // ─── Elements ───────────────────────────────
   const grid = document.getElementById('listings-grid');
   const countEl = document.getElementById('rooms-count');
   const sortSelect = document.getElementById('sort-select');
@@ -21,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const typeFilters = document.querySelectorAll('input[name="type"]');
   const amenityFilters = document.querySelectorAll('input[name="amenity"]');
 
-  // ─── Price Slider ────────────────────────────
   if (priceSlider && priceDisplay) {
     priceSlider.addEventListener('input', () => {
       priceDisplay.textContent = `Up to ₹${parseInt(priceSlider.value).toLocaleString('en-IN')}/month`;
@@ -30,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
     priceDisplay.textContent = `Up to ₹${parseInt(priceSlider.value).toLocaleString('en-IN')}/month`;
   }
 
-  // ─── Apply Filters ───────────────────────────
   function applyFilters() {
     const selectedLocations = [...locationFilters]
       .filter(cb => cb.checked)
@@ -71,7 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderGrid();
   }
 
-  // ─── Sort ─────────────────────────────────────
   function sortRooms() {
     if (!sortSelect) return;
     const val = sortSelect.value;
@@ -87,7 +82,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ─── Render Grid ──────────────────────────────
   function renderGrid() {
     if (countEl) {
       countEl.textContent = `${filteredRooms.length} room${filteredRooms.length !== 1 ? 's' : ''} found`;
@@ -106,7 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     grid.innerHTML = filteredRooms.map(room => renderRoomCard(room)).join('');
 
-    // Make cards clickable — go to detail page
     grid.querySelectorAll('.room-card').forEach(card => {
       card.style.cursor = 'pointer';
       card.addEventListener('click', () => {
@@ -116,7 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ─── Event Listeners ──────────────────────────
   if (applyBtn) {
     applyBtn.addEventListener('click', applyFilters);
   }
@@ -145,6 +137,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ─── Initial render ────────────────────────────
   renderGrid();
 });
