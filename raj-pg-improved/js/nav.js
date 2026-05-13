@@ -5,7 +5,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // ─── Sticky shadow on scroll ────────────────
   const navbar = document.querySelector('.navbar');
   if (navbar) {
     window.addEventListener('scroll', () => {
@@ -17,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
-  // ─── Hamburger toggle ───────────────────────
   const hamburger = document.querySelector('.hamburger');
   const mobileNav = document.querySelector('.nav-mobile');
 
@@ -48,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // ─── Active nav link ────────────────────────
   const path = window.location.pathname;
   const filename = path.split('/').pop() || 'index.html';
 
